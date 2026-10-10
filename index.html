@@ -11,8 +11,6 @@
             /* 設定字體 */
             font-family: Garamond, "微軟正黑體", "Microsoft JhengHei", sans-serif;
         }
-        
-        
 
         /* 2. 小標語區域 */
         article {
@@ -27,16 +25,17 @@
         section {
             /* 設定背景色 */
             background-color: #bcb8b8;
-            float: right;
             text-align: center;
-            margin:20px;
+            margin: 20px auto; 
+            width: fit-content;
+            padding: 10px 20px;   
+            border-radius: 5px;
         }
 
         /* 3. 鋼琴圖片 */
         #piano {
-            float:left;
-            width: 350px;
-            margin: 20px;
+          display: block;
+          margin: 0 auto;
         }
     </style>
 </head>
@@ -51,8 +50,7 @@
     由於目前線上購票人數眾多，已將您依序安排於等待區，請勿離開或重整頁面，以免喪失優先等待權益。<br>
     等待結束後將進入購票系統，進入系統後若超過10分鐘無操作，系統將會自動登出。
     </section>
-    <img id="piano" src="./music_piano.png" alt="Piano Image">
 </article>
-
+<img id="piano" src="./music_piano.png" alt="Piano Image">
 </body>
 </html>
